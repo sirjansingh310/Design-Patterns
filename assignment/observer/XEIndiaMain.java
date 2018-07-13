@@ -12,6 +12,6 @@ public class XEIndiaMain {
         USD usd = new USD(rupeeVal);
         GBP gbp = new GBP(rupeeVal);
         Euro euro = new Euro(rupeeVal);
-        rupeeVal.setValue(indianRupee);
+        rupeeVal.convert(indianRupee);
     }
 }
