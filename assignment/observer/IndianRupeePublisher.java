@@ -10,7 +10,7 @@ public class IndianRupeePublisher implements Subject {
         currencies = new ArrayList<>();
     }
 
-    public void setValue(double value){
+    public void convert(double value){
         this.value = value;
         notifyObservers();
     }
